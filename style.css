@@ -35,7 +35,7 @@ h1, h2 {
   margin: 0px 0px 5px 0px;
 }
 h1 {
-  font-size: 24px;
+  font-size: 21px;
 }
 h2 {
   font-size: 16px;
@@ -79,7 +79,10 @@ p {
   animation: moveIn 1s 3.1s ease forwards;
 }
 .profile-card header h1 {
-  color: #FF5722;
+  color: #d43f42;
+}
+.profile-card header h2 {
+  color: rgba(50, 50, 50, 0.84);
 }
 .profile-card header a {
   display: inline-block;
@@ -127,8 +130,8 @@ p {
   float: right;
   padding: 50px 20px 30px 20px;
   background: #FFFFFF;
-  color: #333333;
-  margin-top: 50px;
+  color: #5b5b5b;
+  margin-top: 10px;
   text-align: center;
   opacity: 0;
   -webkit-animation: moveIn 1s 3.1s ease forwards;
@@ -154,7 +157,7 @@ p {
   margin: -5px 0px 0px 0px;
   padding: 0px;
   float: left;
-  width: 33.3%;
+  width: 25%;
   text-align: center;
 }
 .profile-social-links li a {
